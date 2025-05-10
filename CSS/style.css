@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;                                         /* Fonte do texto */
+    background-color: #f0f2f5;                                            /* Cor de fundo */
+    padding: 40px;                                                          /* Espaço dentro da borda */
+}
+
+.container {
+    background-color: #fff;                                                /* Fundo branco */
+    padding: 30px;                                                           /* Espaço interno */
+    max-width: 500px;                                                        /* Largura máxima */
+    margin: 0 auto;                                                          /* Centralizar horizontalmente */
+    border-radius: 10px;                                                     /* Cantos arredondados */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);                                /* Sombra */
+    height: 450px;
+}
+
+.container_cadastro {
+    background-color: #fff;                                                /* Fundo branco */
+    padding: 30px;                                                           /* Espaço interno */
+    max-width: 500px;                                                        /* Largura máxima */
+    margin: 0 auto;                                                          /* Centralizar horizontalmente */
+    border-radius: 10px;                                                     /* Cantos arredondados */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);                                /* Sombra */
+    height: 700px;
+}
+
+h2 {
+    color: #0da024;                                                         /* Cor do título */
+    text-align: center;                                                       /* Texto centralizado */
+}
+
+input[type="text"] {
+    width: 100%;                                                              /* Largura total */
+    padding: 10px;                                                            /* Espaço interno */
+    margin: 8px 0 16px 0;                                                     /* Margens (cima, direita, baixo, esquerda) */
+    border: 1px solid #ccc;                                                 /* Borda cinza */
+    border-radius: 6px;                                                       /* Cantos arredondados */
+}
+
+input[type="text"] {
+    width: 100%;                                                              /* Largura total */
+    padding: 10px;                                                            /* Espaço interno */
+    margin: 8px 0 16px 0;                                                     /* Margens (cima, direita, baixo, esquerda) */
+    border: 1px solid #ccc;                                                 /* Borda cinza */
+    border-radius: 6px;                                                       /* Cantos arredondados */
+}
+
+input[type="number"] {
+    width: 100%;                                                              /* Largura total */
+    padding: 10px;                                                            /* Espaço interno */
+    margin: 8px 0 16px 0;                                                     /* Margens (cima, direita, baixo, esquerda) */
+    border: 1px solid #ccc;                                                 /* Borda cinza */
+    border-radius: 6px;                                                       /* Cantos arredondados */
+}
+
+input[type="email"] {
+    width: 100%;                                                              /* Largura total */
+    padding: 10px;                                                            /* Espaço interno */
+    margin: 8px 0 16px 0;                                                     /* Margens (cima, direita, baixo, esquerda) */
+    border: 1px solid #ccc;                                                 /* Borda cinza */
+    border-radius: 6px;                                                       /* Cantos arredondados */
+}
+
+input[type="password"] {
+    width: 100%;                                                               /* Largura total */
+    padding: 10px;                                                             /* Espaço interno */
+    margin: 8px 0 16px 0;                                                      /* Margens */
+    border: 1px solid #ccc;                                                  /* Borda cinza */
+    border-radius: 6px;                                                        /* Cantos arredondados */
+}
+
+input[type="submit"]{
+    display: block;                                                             /* Comportamento de bloco */
+    width: 50%;                                                                 /* Metade da largura */
+    padding: 10px;                                                              /* Espaço interno */
+    margin: 8px auto 16px auto;                                                 /* Margens (centralizar) */
+    border: none;                                                               /* Sem borda */
+    border-radius: 6px;                                                         /* Cantos arredondados */
+    background-color: #0da024;                                                /* Cor de fundo */
+    color: #fff;                                                              /* Cor do texto */
+    cursor: pointer;                                                            /* Cursor de clique */
+    font-size: 16px;                                                            /* Tamanho da fonte */
+    transition: background-color 0.3s ease;                                     /* Transição suave da cor de fundo */
+}
+
+input[type="submit"]:hover {
+    background-color: #0da024;                                                /* Cor de fundo ao passar o mouse */
+}
+
+.botao-sair {
+    text-decoration: none;
+    display: block;                                                             /* Comportamento de bloco */
+    width: 8%;                                                                  /* Metade da largura */
+    padding: 10px;                                                              /* Espaço interno */
+    margin: 16px 400px ;                                                        /* Margens (centralizar) */
+    border: none;                                                               /* Sem borda */
+    border-radius: 6px;                                                         /* Cantos arredondados */
+    background-color: #0da024;                                                /* Cor de fundo */
+    color: #fff;                                                              /* Cor do texto */
+    cursor: pointer;                                                            /* Cursor de clique */
+    font-size: 16px;                                                            /* Tamanho da fonte */
+    transition: background-color 0.3s ease;                                     /* Transição suave da cor de fundo */
+}
+
+.botao-sair:hover {
+    background-color: #045a22;                                                /* Cor de fundo ao passar o mouse */
+}
+
+.botao-criar {
+    text-align: center;
+    text-decoration: none;
+    display: block;                                                             /* Comportamento de bloco */
+    width: 46%;                                                                 /* Metade da largura */
+    padding: 10px;                                                              /* Espaço interno */
+    margin: 50px  125px ;                                                 /* Margens (centralizar) */
+    border: none;                                                               /* Sem borda */
+    border-radius: 6px;                                                         /* Cantos arredondados */
+    background-color: #89d58d;                                                /* Cor de fundo */
+    color: #fff;                                                              /* Cor do texto */
+    cursor: pointer;                                                            /* Cursor de clique */
+    font-size: 16px;                                                            /* Tamanho da fonte */
+    transition: background-color 0.3s ease;                                     /* Transição suave da cor de fundo */
+}
+
+.botao-criar:hover {
+    background-color: #045a22;                                                /* Cor de fundo ao passar o mouse */
+}
